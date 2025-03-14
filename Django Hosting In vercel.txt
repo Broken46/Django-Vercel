@@ -1,4 +1,6 @@
 pip freeze > requirements.txt 
 python manage.py collectstatic --noinput
+npm install -g vercel
+vercel login
 vercel --prod
  
